@@ -1,0 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+file1 = open('D:\\dev-trash\\stopwords.txt','r+')
+for line in file1:
+	print line

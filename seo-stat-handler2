@@ -1,0 +1,12 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+import json
+import os
+jsonPath = 'D:\\dev-trash\\metrika-json\\'
+resultPath = 'D:\\dev-trash\\result.txt'
+resultFile = open (resultPath, 'w+')
+fileList = open ('D:\\dev-trash\\filelist.txt', 'w+')
+print >>resultFile, '{0};{1};{2};{3};{4}'.format ('project', 'lastSourceEngine', 'lastSourceEngineId', 'date', 'visits')
+for d, dirs, files in os.walk(jsonPath):
+	for f in files:
+		print >>fileList, f

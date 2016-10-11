@@ -1,0 +1,1 @@
+r = requests.get('http://seozoo.ru/xmlsearch?user=aleksey.makarov@ingate.ru&key=UH7ForyW2o2QGIruyktzXbiivQ89EsEK197Ioccc&query=site%3Ahttp%3A%2F%2Fwww.zabori.info&lr=15&l10n=ru&sortby=tm.order%3Dascending&filter=moderate&groupby=attr%3D%22%22.mode%3Dflat.groups-on-page%3D100.docs-in-group%3D1')
